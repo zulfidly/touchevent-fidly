@@ -1,0 +1,40 @@
+*{
+    user-select: none;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+table:nth-child(2n+1) {
+    background-color: lightgoldenrodyellow;
+}
+table:nth-child(2n) {
+    background-color: lightpink;
+}
+#touchEventMsg {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
+#infoBoard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+.touchID {
+    color: red;
+}
+#github {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    background-color: transparent;
+    border: none;
+}
