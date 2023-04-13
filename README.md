@@ -1,4 +1,4 @@
-# [Study Tool : Touch events on mobile](https://fidly-currex.netlify.app/) 
+# [Study Tool : Touch events on mobile](https://touchevent-fidly.netlify.app/) 
 ## Reference: [w3schools.com](https://www.w3schools.com/jsref/obj_touchevent.asp)
 ### Note: only works on devices with touch screen
 
