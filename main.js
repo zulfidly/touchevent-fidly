@@ -3,14 +3,17 @@ const msgBoard = document.getElementById("touchEventMsg")
 const isTouchCancel = document.getElementById("isTouchCancel")
 
 window.addEventListener("touchstart", (e) => {
+    isTouchCancel.textContent = ""
     msgBoard.textContent = e.type
     getTouchCount(e)
 })
 window.addEventListener("touchmove", (e) => {
+    isTouchCancel.textContent = ""
     msgBoard.textContent = e.type
     getTouchCount(e)
 })
 window.addEventListener("touchend", (e) => {
+    isTouchCancel.textContent = ""
     msgBoard.textContent = e.type
     getTouchCount(e)
 })

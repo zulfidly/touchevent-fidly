@@ -16,7 +16,7 @@ table:nth-child(2n+1) {
 table:nth-child(2n) {
     background-color: lightpink;
 }
-#touchEventMsg {
+#footerCtnr {
     position: fixed;
     bottom: 5px;
     right: 10px;
