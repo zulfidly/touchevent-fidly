@@ -4,12 +4,20 @@ window.addEventListener("load", () => {
     screenD.innerHTML = `
         <table>
             <tr>
-                <td> innerWidth </td>
+                <td> window.innerWidth </td>
                 <td> ${window.innerWidth} </td>
             </tr>
             <tr>
-                <td> innerHeight </td>
+                <td> window.innerHeight </td>
                 <td> ${window.innerHeight} </td>
+            </tr>
+            <tr>
+                <td> screen.width </td>
+                <td> ${screen.width} </td>
+            </tr>
+            <tr>
+                <td> screen.height </td>
+                <td> ${screen.height} </td>
             </tr>
         </table>
     `
@@ -25,6 +33,14 @@ window.addEventListener("resize", () => {
             <tr>
                 <td> innerHeight </td>
                 <td> ${window.innerHeight} </td>
+            </tr>
+            <tr>
+                <td> innerWidth </td>
+                <td> ${screen.width} </td>
+            </tr>
+            <tr>
+                <td> innerHeight </td>
+                <td> ${screen.height} </td>
             </tr>
         </table>
     `

@@ -39,6 +39,8 @@ table:nth-child(2n) {
     bottom: 15px;
 }
 #screenD > table {
+    font-size: 13px;
+    opacity: 0.7;
     background-color: lightgreen;
 }
 #github {
