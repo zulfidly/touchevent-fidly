@@ -1,7 +1,9 @@
 *{
     user-select: none;
 }
-
+body {
+    height: 100vh;
+}
 th, td {
     border: 1px solid black;
     padding: 5px;
@@ -31,10 +33,15 @@ table:nth-child(2n) {
 .touchID {
     color: red;
 }
-#github {
-    position: fixed;
-    bottom: 15px;
+#footerLeft {
+    position:fixed;
     left: 15px;
+    bottom: 15px;
+}
+#screenD > table {
+    background-color: lightgreen;
+}
+#github {
     background-color: transparent;
     border: none;
 }
