@@ -35,11 +35,11 @@ window.addEventListener("resize", () => {
                 <td> ${window.innerHeight} </td>
             </tr>
             <tr>
-                <td> innerWidth </td>
+                <td> screen.width </td>
                 <td> ${screen.width} </td>
             </tr>
             <tr>
-                <td> innerHeight </td>
+                <td> screen.height </td>
                 <td> ${screen.height} </td>
             </tr>
         </table>
